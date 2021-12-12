@@ -94,8 +94,13 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-2">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="index.html" class="brand-link logo-lg">
       <img src="dist/img/logo-light.svg" alt="logo" class="brand-image" width="52">
+    </a>
+
+    <!-- Brand Logo collapsed -->
+    <a href="index.html" class="brand-link logo-sm">
+      <img src="dist/img/logo-light-sm.svg" alt="logo" class="brand-image p-1 mt-0">
     </a>
 
     <!-- Sidebar -->
@@ -106,97 +111,92 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
           <li class="nav-header">Branding</li>
-          <li class="nav-item menu-open">
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
-                  <p>Colors</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
-                  <p>Typography</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <p>Elevation & shadows</p>
-                </a>
-              </li>
-            </ul>
-          </li>
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
-              <p>
-                Background
-              </p>
+            <a href="index.html" class="nav-link active">
+              <i class="nav-icon fas fa-palette"></i>
+              <p>Colors</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <p>
-                Logo branding
-              </p>
+            <a href="index.html" class="nav-link">
+              <i class="nav-icon fas fa-font"></i>
+              <p>Typography</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              <i class="nav-icon fas fa-sun"></i>
+              <p>Elevation & shadows</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              <i class="nav-icon fas fa-brush"></i>
+              <p>Background</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              <i class="nav-icon fas fa-dice-d6"></i>
+              <p>Logo branding</p>
             </a>
           </li>
           <li class="nav-header">Styleguide</li>
           <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
-              <p>
-                Buttons
-              </p>
+            <a href="index.html" class="nav-link">
+              <i class="nav-icon fas fa-sun"></i>
+              <p>Buttons</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
-              <p>
-                Forms
-              </p>
+            <a href="index.html" class="nav-link">
+              <i class="nav-icon fas fa-sun"></i>
+              <p>Forms</p>
             </a>
           </li>
           <li class="nav-header">Components</li>
           <li class="nav-item">
-            <a href="iframe.html" class="nav-link">
+            <a href="index.html" class="nav-link">
               <p>Tables</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
+            <a href="index.html" class="nav-link">
               <p>Chat</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="index.html" class="nav-link">
               <p>Content block</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="index.html" class="nav-link">
               <p>Testimonial</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="index.html" class="nav-link">
               <p>List item</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="index.html" class="nav-link">
               <p>Accordion</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="index.html" class="nav-link">
               <p>Profile picture</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="index.html" class="nav-link">
               <p>Calendar</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="index.html" class="nav-link">
               <p>Pricing</p>
             </a>
           </li>
@@ -231,25 +231,392 @@
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-2">
             <div class="card bg-primary">
               <div class="card-body">
                 <div class="pull-right">
                   <img src="dist/img/logo-light.svg" alt="logo" class="opacity-25" width="64">
                 </div>
-                <h3>Colors</h3>
+                <h3 class="mb-4">Colors</h3>
+                <p class="opacity-75">In the Colors section you’ll find the many Base Colors, Brand Colors and Gradients that power the RUN Design System.</p>
               </div>
+            </div>
+            <div class="list-group">
+              <a href="#base-color" class="list-group-item list-group-item-action">Base colors, tints & shades</a>
+              <a href="#state-color" class="list-group-item list-group-item-action">State colors</a>
+              <a href="#" class="list-group-item list-group-item-action">Black, grey & white</a>
+              <a href="#" class="list-group-item list-group-item-action">Gradient colors</a>
             </div>
           </div>
-          <div class="col-lg-9">
-            <div class="card">
+          <div class="col-lg-10">
+            <div class="card" id="base-color">
               <div class="card-header">
-                
+                <div class="pull-right">
+                  <img src="dist/img/logo-dark.svg" alt="logo" class="opacity-100" width="64">
+                </div>
+                <h4>Base color</h4>
               </div>
               <div class="card-body">
-                
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h5 class="card-subheader mb-4">Base colors, tints & shades</h5>
+                  </div>
+                  <div class="col-lg-4">
+                    <ul class="list-group">
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary-50 text-white">
+                        Primary (50 T)
+                        <span class="text-white">#99B9DD</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary-100 text-white">
+                        Primary (100 T)
+                        <span class="text-white">#85ABD6</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary-200 text-white">
+                        Primary (200 T)
+                        <span class="text-white">#709DCF</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary-300 text-white">
+                        Primary (300 T)
+                        <span class="text-white">#5C8FC8</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary-400 text-white">
+                        Primary (400 T)
+                        <span class="text-white">#4781C1</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary text-white">
+                        Primary (500 Base)
+                        <span class="text-white">#3373BA</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary-600 text-white">
+                        Primary (600 S)
+                        <span class="text-white">#2E68A7</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary-700 text-white">
+                        Primary (700 S)
+                        <span class="text-white">#295C95</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary-800 text-white">
+                        Primary (800 S)
+                        <span class="text-white">#245182</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary-900 text-white">
+                        Primary (900 S)
+                        <span class="text-white">#1F4570</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-primary-950 text-white">
+                        Primary (950 S)
+                        <span class="text-white">#1A3A5D</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-4">
+                    <ul class="list-group">
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary-50 text-white">
+                        Secondary (50 T)
+                        <span class="text-white">#A7D4EE</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary-100 text-white">
+                        Secondary (100 T)
+                        <span class="text-white">#95CBEA</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary-200 text-white">
+                        Secondary (200 T)
+                        <span class="text-white">#83C2E7</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary-300 text-white">
+                        Secondary (300 T)
+                        <span class="text-white">#71B9E3</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary-400 text-white">
+                        Secondary (400 T)
+                        <span class="text-white">#60B1E0</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary text-white">
+                        Secondary (500 Base)
+                        <span class="text-white">#4EA8DC</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary-600 text-white">
+                        Secondary (600 S)
+                        <span class="text-white">#4697C6</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary-700 text-white">
+                        Secondary (700 S)
+                        <span class="text-white">#3E86B0</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary-800 text-white">
+                        Secondary (800 S)
+                        <span class="text-white">#37769A</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary-900 text-white">
+                        Secondary (900 S)
+                        <span class="text-white">#2F6584</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-secondary-950 text-white">
+                        Secondary (950 S)
+                        <span class="text-white">#27546E</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-4">
+                    <ul class="list-group">
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent-50 text-white">
+                        Accent (50 T)
+                        <span class="text-white">#AAB8C6</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent-100 text-white">
+                        Accent (100 T)
+                        <span class="text-white">#99A9BB</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent-200 text-white">
+                        Accent (200 T)
+                        <span class="text-white">#889BAF</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent-300 text-white">
+                        Accent (300 T)
+                        <span class="text-white">#778DA4</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent-400 text-white">
+                        Accent (400 T)
+                        <span class="text-white">#667E98</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent text-white">
+                        Accent (500 Base)
+                        <span class="text-white">#55708D</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent-600 text-white">
+                        Accent (600 S)
+                        <span class="text-white">#4D657F</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent-700 text-white">
+                        Accent (700 S)
+                        <span class="text-white">#445A71</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent-800 text-white">
+                        Accent (800 S)
+                        <span class="text-white">#3B4E63</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent-900 text-white">
+                        Accent (900 S)
+                        <span class="text-white">#334355</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-accent-950 text-white">
+                        Accent (950 S)
+                        <span class="text-white">#2B3847</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
+
+            <div class="card" id="state-color">
+              <div class="card-header">
+                <div class="pull-right">
+                  <img src="dist/img/logo-dark.svg" alt="logo" class="opacity-100" width="64">
+                </div>
+                <h4>State colors</h4>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h5 class="card-subheader mb-4">State colors, tints & shades</h5>
+                  </div>
+                  <div class="col-lg-3">
+                    <ul class="list-group">
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger-50 text-white">
+                        Danger (50 T)
+                        <span class="text-white">#F4AAAC</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger-100 text-white">
+                        Danger (100 T)
+                        <span class="text-white">#F1999B</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger-200 text-white">
+                        Danger (200 T)
+                        <span class="text-white">#EF888B</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger-300 text-white">
+                        Danger (300 T)
+                        <span class="text-white">#ED777A</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger-400 text-white">
+                        Danger (400 T)
+                        <span class="text-white">#EA666A</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger text-white">
+                        Danger (500 Base)
+                        <span class="text-white">#E85559</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger-600 text-white">
+                        Danger (600 S)
+                        <span class="text-white">#D14D50</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger-700 text-white">
+                        Danger (700 S)
+                        <span class="text-white">#BA4447</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger-800 text-white">
+                        Danger (800 S)
+                        <span class="text-white">#A23B3E</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger-900 text-white">
+                        Danger (900 S)
+                        <span class="text-white">#8B3335</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-danger-950 text-white">
+                        Danger (950 S)
+                        <span class="text-white">#742B2D</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3">
+                    <ul class="list-group">
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning-50 text-white">
+                        Warning (50 T)
+                        <span class="text-white">#F5BA80</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning-100 text-white">
+                        Warning (100 T)
+                        <span class="text-white">#F3AC66</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning-200 text-white">
+                        Warning (200 T)
+                        <span class="text-white">#F19E4D</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning-300 text-white">
+                        Warning (300 T)
+                        <span class="text-white">#EF9133</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning-400 text-white">
+                        Warning (400 T)
+                        <span class="text-white">#ED831A</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning text-white">
+                        Warning (500 Base)
+                        <span class="text-white">#EB7500</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning-600 text-white">
+                        Warning (600 S)
+                        <span class="text-white">#D46900</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning-700 text-white">
+                        Warning (700 S)
+                        <span class="text-white">#BC5E00</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning-800 text-white">
+                        Warning (800 S)
+                        <span class="text-white">#A55200</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning-900 text-white">
+                        Warning (900 S)
+                        <span class="text-white">#8D4600</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-warning-950 text-white">
+                        Warning (950 S)
+                        <span class="text-white">#763B00</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3">
+                    <ul class="list-group">
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success-50 text-white">
+                        Success (50 T)
+                        <span class="text-white">#9AE3B9</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success-100 text-white">
+                        Success (100 T)
+                        <span class="text-white">#85DDAA</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success-200 text-white">
+                        Success (200 T)
+                        <span class="text-white">#71D79C</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success-300 text-white">
+                        Success (300 T)
+                        <span class="text-white">#5DD18E</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success-400 text-white">
+                        Success (400 T)
+                        <span class="text-white">#48CC80</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success text-white">
+                        Success (500 Base)
+                        <span class="text-white">#34C672</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success-600 text-white">
+                        Success (600 S)
+                        <span class="text-white">#2FB267</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success-700 text-white">
+                        Success (700 S)
+                        <span class="text-white">#2A9E5B</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success-800 text-white">
+                        Success (800 S)
+                        <span class="text-white">#248B50</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success-900 text-white">
+                        Success (900 S)
+                        <span class="text-white">#1F7744</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-success-950 text-white">
+                        Success (950 S)
+                        <span class="text-white">#1A6339</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3">
+                    <ul class="list-group">
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info-50 text-white">
+                        Info (50 T)
+                        <span class="text-white">#97DFE6</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info-100 text-white">
+                        Info (100 T)
+                        <span class="text-white">#82D8E0</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info-200 text-white">
+                        Info (200 T)
+                        <span class="text-white">#6DD2DB</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info-300 text-white">
+                        Info (300 T)
+                        <span class="text-white">#59CBD6</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info-400 text-white">
+                        Info (400 T)
+                        <span class="text-white">#44C5D1</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info text-white">
+                        Info (500 Base)
+                        <span class="text-white">#2FBECC</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info-600 text-white">
+                        Info (600 S)
+                        <span class="text-white">#2AABB8</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info-700 text-white">
+                        Info (700 S)
+                        <span class="text-white">#2698A3</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info-800 text-white">
+                        Info (800 S)
+                        <span class="text-white">#21858F</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info-900 text-white">
+                        Info (900 S)
+                        <span class="text-white">#1C727A</span>
+                      </li>
+                      <li class="list-group-item border-0 d-flex justify-content-between align-items-center bg-info-950 text-white">
+                        Info (950 S)
+                        <span class="text-white">#185F66</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
         <!-- /.row -->
