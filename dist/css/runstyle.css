@@ -1,0 +1,129 @@
+/* general */
+html{
+  font-size: .9rem;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  color: #3373BA;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+
+/* opacity */
+.opacity-100 {
+  opacity: 1;
+}
+.opacity-75 {
+  opacity: .75;
+}
+.opacity-50 {
+  opacity: .5;
+}
+.opacity-25 {
+  opacity: .25;
+}
+
+/* background */
+.bg-primary {
+  background-color: #3373BA !important;
+}
+.bg-gradient-primary {
+  background: #295C95 linear-gradient(180deg,#3373BA,#295C95) repeat-x !important;
+}
+.bg-secondary {
+  background-color: #4EA8DC !important;
+}
+}
+.bg-gradient-secondary {
+  background: #3E86B0 linear-gradient(180deg,#4EA8DC,#3E86B0) repeat-x !important;
+}
+.bg-success {
+  background-color: #34C672 !important;
+}
+.bg-gradient-success {
+  background: #2A9E5B linear-gradient(180deg,#34C672,#2A9E5B) repeat-x !important;
+}
+.bg-warning {
+  background-color: #EB7500 !important;
+}
+.bg-gradient-warning {
+  background: #BC5E00 linear-gradient(180deg,#EB7500,#BC5E00) repeat-x !important;
+}
+.bg-warning, .bg-warning > a {
+  color: #fff !important;
+}
+.bg-danger {
+  background-color: #E85559 !important;
+}
+.bg-gradient-danger {
+  background: #BA4447 linear-gradient(180deg,#E85559,#BA4447) repeat-x !important;
+}
+.bg-info {
+  background-color: #2FBECC !important;
+}
+.bg-gradient-info {
+  background: #2698A3 linear-gradient(180deg,#2FBECC,#2698A3) repeat-x !important;
+}
+
+/* header */
+.main-header {
+  border-bottom: 0px;
+  z-index: 1034;
+  box-shadow: 0px 2px 4px rgba(48,49,51,.10);
+}
+
+/* sidebar */
+.brand-link .brand-image {
+  float: none;
+  margin: 8px;
+}
+[class*="sidebar-dark"] .brand-link {
+  border-bottom: 0px;
+}
+[class*="sidebar-dark"] .user-panel {
+  border-bottom: 0px;
+}
+[class*="sidebar-dark-"] {
+  background-color: #333333;
+}
+[class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active, [class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active:focus, [class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active:hover {
+  background-color: #474747;
+  color: #fff;
+}
+.nav-header {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-left: 4px #3373BA solid;
+  margin-left: -6px;
+}
+
+/* card */
+.card {
+  border-radius: .5rem;
+  box-shadow: 0px 2px 4px rgba(48,49,51,.10);
+}
+.card-header {
+  border-bottom: 1px solid #EBEBEB;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+.small-box {
+  border-radius: .5rem;
+  box-shadow: 0px 2px 4px rgba(48,49,51,.10);
+}
+
+/* footer */
+.main-footer {
+  border-top: 1px solid #EBEBEB;
+  color: #858585;
+}
