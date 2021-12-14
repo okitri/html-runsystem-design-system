@@ -437,7 +437,7 @@ a{
 
 /* card */
 .card {
-  border-radius: .5rem;
+  border-radius: 1rem;
   box-shadow: 0px 2px 4px rgba(48,49,51,.10);
 }
 .card-header {
@@ -446,7 +446,7 @@ a{
   border-top-right-radius: .5rem;
 }
 .small-box {
-  border-radius: .5rem;
+  border-radius: 1rem;
   box-shadow: 0px 2px 4px rgba(48,49,51,.10);
 }
 
@@ -458,7 +458,7 @@ a{
 
 /* list */
 .list-group {
-  border-radius: .5rem;
+  border-radius: 1rem;
 }
 .list-group-item.active {
   background-color: #3373ba;
